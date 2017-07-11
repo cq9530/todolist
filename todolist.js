@@ -31,10 +31,10 @@ var addEvent = function() {
                 var newEvent = document.createElement('div');
                 var button = document.createElement('input');
                 button.setAttribute('type', 'checkbox');
+                button.setAttribute('class', 'down-input');
                 newEvent.appendChild(button);
                 var input = document.createElement('input');
                 input.setAttribute('type', 'text');
-                input.setAttribute('class', 'down');
                 input.value = getFirst('enter-input').value;
                 newEvent.appendChild(input);
                 getFirst('undone-form').appendChild(newEvent);
