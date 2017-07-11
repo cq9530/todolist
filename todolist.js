@@ -1,24 +1,4 @@
-// function disableEnter(event) {
-//     debugger
-//     var keyCode = event.keyCode ? event.keyCode : event.which ? event.which : event.charCode;
-//     if (keyCode == 13) {
-//         // 此处处理回车动作
-//         n++;
-//         var div = document.createElement('div');
-//         div.setAttribute('id', `und` + n);
-//         document.getElementById('undone').appendChild(div);
-//         var radio = document.createElement('input');
-//         radio.setAttribute('type', 'checkbox');
-//         document.getElementById(`und` + n).appendChild(radio);
-//         var input = document.createElement('input');
-//         input.setAttribute('type', 'text');
-//         input.setAttribute('class', 'down');
-//         input.setAttribute('name', `und` + n);
-//         input.value = document.getElementById('enter').value;
-//         document.getElementById(`und` + n).appendChild(input);
-//     }
-// }
-//得到class为那么的第一个元素
+ //得到class为那么的第一个元素
 var getFirst = function(name) {
         return document.getElementsByClassName(name)[0];
     }
