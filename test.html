@@ -1,0 +1,19 @@
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <ul id="list">
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+        </ul>
+        <script>
+            document.getElementById('list').addEventListener('click', function (evt) {
+                if (evt.target.tagName.toUpperCase() === 'LI') {
+                    alert(evt.target.innerHTML);
+                }
+            });
+        </script>
+    </body>
+</html>
